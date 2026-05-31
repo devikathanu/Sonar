@@ -12,7 +12,7 @@
 
   <name>T-Sonarnexus Project</name>
   <description>Sample Maven project integrated with Jenkins, SonarQube, and Nexus</description>
-  <url>http://13.201.40.229:8081/</url>
+  <url>http://13.207.176.204:8081/</url>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
@@ -32,11 +32,11 @@
   <distributionManagement>
     <repository>
       <id>nexus</id>
-      <url>http://13.201.40.229:8081/repository/maven-releases/</url>
+      <url>http://13.207.176.204:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
-      <url>http://13.201.40.229:8081/repository/maven-snapshots/</url>
+      <url>http://13.207.176.204:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
